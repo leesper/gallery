@@ -228,14 +228,41 @@ input[type=button] {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .about-2 img {
     width: 25%;
-    height: 100%;
+    height: 287.75px;
 }
 
 .about-2 div {
     width: 25%;
-    height: 100%;
+    height: 287.75px;
+    background-color: #07CBC9;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.about-2 div h1 {
+    color: #FFFFFF;
+}
+.about-2 div h4 {
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.about-2 div p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.about-2 div a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px 10px;
+    margin-left: 110px;
 }
